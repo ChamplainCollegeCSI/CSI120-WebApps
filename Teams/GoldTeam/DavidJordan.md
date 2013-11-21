@@ -4,7 +4,7 @@
 The class of CSI120.
 
 ##What does our application do?
-It returns a list of tweets searched with inputted filters including two hashtags, a date range, a mile readius from the user, and min/max sentiment scores.
+It returns a list of tweets searched with inputted filters including two hashtags, a date range, a mile readius from the user, and min/max sentiment scores. The app also returns a recent picture from instagram that has the hashtags inputted in the filters. For each tweet listed, the user can view its contents 
 
 ##How does our application do it?
 It uses node.js to run the server, the twitter module to search for tweets, the instagram module to search for pictures, the geolocation to get the users position, and jQuery Mobile to make it look nice on an iPhone.
